@@ -14,6 +14,9 @@
 		E0647AB51E7A3BB3006FC46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0647AB31E7A3BB3006FC46F /* LaunchScreen.storyboard */; };
 		E0647AC01E7A3BB3006FC46F /* IGNBonusAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0647ABF1E7A3BB3006FC46F /* IGNBonusAppTests.swift */; };
 		E0647ACB1E7A3BB3006FC46F /* IGNBonusAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0647ACA1E7A3BB3006FC46F /* IGNBonusAppUITests.swift */; };
+		E0647AD91E7A3BBE006FC46F /* Tiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0647AD81E7A3BBE006FC46F /* Tiles.swift */; };
+		E0647ADB1E7A4287006FC46F /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0647ADA1E7A4287006FC46F /* Players.swift */; };
+		E0647ADD1E7A42B7006FC46F /* Gameboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0647ADC1E7A42B7006FC46F /* Gameboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		E0647AC61E7A3BB3006FC46F /* IGNBonusAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGNBonusAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0647ACA1E7A3BB3006FC46F /* IGNBonusAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGNBonusAppUITests.swift; sourceTree = "<group>"; };
 		E0647ACC1E7A3BB3006FC46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0647AD81E7A3BBE006FC46F /* Tiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiles.swift; sourceTree = "<group>"; };
+		E0647ADA1E7A4287006FC46F /* Players.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		E0647ADC1E7A42B7006FC46F /* Gameboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gameboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				E0647AAA1E7A3BB3006FC46F /* AppDelegate.swift */,
 				E0647AAC1E7A3BB3006FC46F /* ViewController.swift */,
+				E0647AD81E7A3BBE006FC46F /* Tiles.swift */,
+				E0647ADA1E7A4287006FC46F /* Players.swift */,
+				E0647ADC1E7A42B7006FC46F /* Gameboard.swift */,
 				E0647AAE1E7A3BB3006FC46F /* Main.storyboard */,
 				E0647AB11E7A3BB3006FC46F /* Assets.xcassets */,
 				E0647AB31E7A3BB3006FC46F /* LaunchScreen.storyboard */,
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					E0647AA61E7A3BB3006FC46F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 338GE389KF;
 						ProvisioningStyle = Automatic;
 					};
 					E0647ABA1E7A3BB3006FC46F = {
@@ -259,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0647ADB1E7A4287006FC46F /* Players.swift in Sources */,
 				E0647AAD1E7A3BB3006FC46F /* ViewController.swift in Sources */,
+				E0647ADD1E7A42B7006FC46F /* Gameboard.swift in Sources */,
 				E0647AAB1E7A3BB3006FC46F /* AppDelegate.swift in Sources */,
+				E0647AD91E7A3BBE006FC46F /* Tiles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 338GE389KF;
 				INFOPLIST_FILE = IGNBonusApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Bradley-French.IGNBonusApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +439,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 338GE389KF;
 				INFOPLIST_FILE = IGNBonusApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Bradley-French.IGNBonusApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +522,7 @@
 				E0647AD11E7A3BB3006FC46F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0647AD21E7A3BB3006FC46F /* Build configuration list for PBXNativeTarget "IGNBonusAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +531,7 @@
 				E0647AD41E7A3BB3006FC46F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0647AD51E7A3BB3006FC46F /* Build configuration list for PBXNativeTarget "IGNBonusAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +540,7 @@
 				E0647AD71E7A3BB3006FC46F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
