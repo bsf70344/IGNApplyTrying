@@ -272,6 +272,7 @@ class Gameboard: UIView, UIScrollViewDelegate {
                                 //Movement of tiles
                                 currentTile!.frame = CGRect(x: currentTile!.frame.minX+((self.scrollView.frame.height*(1/6))*CGFloat(movementX)), y: currentTile!.frame.minY+((self.scrollView.frame.height*(1/6))*CGFloat(movementY)), width: currentTile!.frame.width, height: currentTile!.frame.height)
                             })
+                            //
                             let item:Tile? = (i < 6 || j < 6) ? nil : grid[i-movementY][j-movementX]
                             tempGrid[i][j] = item
                         }
