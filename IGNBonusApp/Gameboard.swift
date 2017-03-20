@@ -280,7 +280,7 @@ class Gameboard: UIView, UIScrollViewDelegate {
                 }
             }
             grid = tempGrid
-            //
+            
             currentTiles = []
             var count:Int = 0
             for items in player[0].hand {
