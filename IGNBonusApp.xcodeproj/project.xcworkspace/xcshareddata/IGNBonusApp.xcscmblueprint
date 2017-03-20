@@ -1,16 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E78799A07F76153700B8DF6090196CC153FB3F55",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E78799A07F76153700B8DF6090196CC153FB3F55+++F5D784A",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "A6781853098BB8E442C3F449208F66332C08BA83" : 9223372036854775807,
-    "E78799A07F76153700B8DF6090196CC153FB3F55" : 9223372036854775807
+    "E78799A07F76153700B8DF6090196CC153FB3F55+++F5D784A" : 9223372036854775807,
+    "5DCE5B3B34B0EF4C7D87133869773A07AADD66B1+++AE10E98" : 9223372036854775807,
+    "A6781853098BB8E442C3F449208F66332C08BA83+++7C0CDB7" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C510A01C-9944-487C-BAD3-3C228FB303FF",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "A6781853098BB8E442C3F449208F66332C08BA83" : "",
-    "E78799A07F76153700B8DF6090196CC153FB3F55" : "IGNBonusApp\/"
+    "E78799A07F76153700B8DF6090196CC153FB3F55+++F5D784A" : "IGNBonusApp\/",
+    "5DCE5B3B34B0EF4C7D87133869773A07AADD66B1+++AE10E98" : "",
+    "A6781853098BB8E442C3F449208F66332C08BA83+++7C0CDB7" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "IGNBonusApp",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,17 +21,17 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bsf70344\/IGNApplication",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A6781853098BB8E442C3F449208F66332C08BA83"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5DCE5B3B34B0EF4C7D87133869773A07AADD66B1+++AE10E98"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bsf70344\/IGNApply.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A6781853098BB8E442C3F449208F66332C08BA83"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A6781853098BB8E442C3F449208F66332C08BA83+++7C0CDB7"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bsf70344\/IGNApply.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E78799A07F76153700B8DF6090196CC153FB3F55"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E78799A07F76153700B8DF6090196CC153FB3F55+++F5D784A"
     }
   ]
 }
